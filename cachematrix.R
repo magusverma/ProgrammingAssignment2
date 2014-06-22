@@ -3,7 +3,7 @@
 ## This defines the special "matrix" object needed for assignment 
 # Start with something like x <- makeCacheMatrix()
 makeCacheMatrix <- function(x = matrix()) {
-	# m holds the inverse of the matrix x
+	# inverse_of_x holds the inverse of the matrix x computed using setsolve() below
 	inverse_of_x <- NULL
 
 	# Setting matrix for a makeCacheMatrix object
